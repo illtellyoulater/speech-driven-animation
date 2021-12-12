@@ -1,3 +1,5 @@
+## I made this repository just for my convenience as the instructions in the official one were not working for me and I had to change a bunch of stuff here and there. Please do not take this repository as an improvement attempt; this is just how things worked for me.
+
 # Speech-Driven Animation
 
 This library implements the end-to-end facial synthesis model described in this [paper](https://sites.google.com/view/facialsynthesis/home).
