@@ -11,192 +11,194 @@ Place the model file(s) under sda/data/
 ## Installing
 
 conda create -n sda
+
 conda activate sda
+
 conda install python=3.9
 
 Then install the following packages
 
-# Name                    Version                   Build  Channel
+Name, Version, Channel
 
-blas                      1.0                         mkl
+blas                      1.0                         
 
-blosc                     1.21.0               h19a0ad4_0
+blosc                     1.21.0               
 
-brotli                    1.0.9                ha925a31_2
+brotli                    1.0.9                
 
-bzip2                     1.0.8                he774522_0
+bzip2                     1.0.8                
 
-ca-certificates           2021.10.26           haa95532_2
+ca-certificates           2021.10.26           
 
-certifi                   2021.10.8        py39haa95532_0
+certifi                   2021.10.8        
 
-cfitsio                   3.470                he774522_6
+cfitsio                   3.470                
 
-charls                    2.2.0                h6c2663c_0
+charls                    2.2.0                
 
-cloudpickle               2.0.0              pyhd3eb1b0_0
+cloudpickle               2.0.0              
 
-colorama                  0.4.4                    pypi_0    pypi
+colorama                  0.4.4                        pypi
 
-cudatoolkit               11.3.1               h59b6b97_2
+cudatoolkit               11.3.1               
 
-cycler                    0.11.0             pyhd3eb1b0_0
+cycler                    0.11.0             
 
-cytoolz                   0.11.0           py39h2bbff1b_0
+cytoolz                   0.11.0           
 
-dask-core                 2021.10.0          pyhd3eb1b0_0
+dask-core                 2021.10.0          
 
-face-alignment            1.3.5                    pypi_0    pypi
+face-alignment            1.3.5                        pypi
 
-ffmpeg                    2.7.0                         0    menpo
+ffmpeg                    2.7.0                        menpo
 
-ffmpeg-python             0.2.0                    pypi_0    pypi
+ffmpeg-python             0.2.0                        pypi
 
-fonttools                 4.25.0             pyhd3eb1b0_0
+fonttools                 4.25.0             
 
-freetype                  2.10.4               hd328e21_0
+freetype                  2.10.4               
 
-fsspec                    2021.10.1          pyhd3eb1b0_0
+fsspec                    2021.10.1          
 
-future                    0.18.2                   pypi_0    pypi
+future                    0.18.2                       pypi
 
-giflib                    5.2.1                h62dcd97_0
+giflib                    5.2.1                
 
-icc_rt                    2019.0.0             h0cc432a_1
+icc_rt                    2019.0.0             
 
-imagecodecs               2021.8.26        py39ha1f97ea_0
+imagecodecs               2021.8.26        
 
-imageio                   2.9.0              pyhd3eb1b0_0
+imageio                   2.9.0              
 
-intel-openmp              2021.4.0          haa95532_3556
+intel-openmp              2021.4.0          
 
-jpeg                      9d                   h2bbff1b_0
+jpeg                      9d                   
 
-kiwisolver                1.3.1            py39hd77b12b_0
+kiwisolver                1.3.1            
 
-lcms2                     2.12                 h83e58a3_0
+lcms2                     2.12                 
 
-lerc                      3.0                  hd77b12b_0
+lerc                      3.0                  
 
-libaec                    1.0.4                h33f27b4_1
+libaec                    1.0.4                
 
-libdeflate                1.8                  h2bbff1b_5
+libdeflate                1.8                  
 
-libpng                    1.6.37               h2a8f88b_0
+libpng                    1.6.37               
 
-libtiff                   4.2.0                hd0e1b90_0
+libtiff                   4.2.0                
 
-libuv                     1.40.0               he774522_0
+libuv                     1.40.0               
 
-libwebp                   1.2.0                h2bbff1b_0
+libwebp                   1.2.0                
 
-libzopfli                 1.0.3                ha925a31_0
+libzopfli                 1.0.3                
 
-llvmlite                  0.37.0                   pypi_0    pypi
+llvmlite                  0.37.0                       pypi
 
-locket                    0.2.1            py39haa95532_1
+locket                    0.2.1            
 
-lz4-c                     1.9.3                h2bbff1b_1
+lz4-c                     1.9.3                
 
-matplotlib-base           3.5.0            py39h6214cd6_0
+matplotlib-base           3.5.0            
 
-mkl                       2021.4.0           haa95532_640
+mkl                       2021.4.0           
 
-mkl-service               2.4.0            py39h2bbff1b_0
+mkl-service               2.4.0            
 
-mkl_fft                   1.3.1            py39h277e83a_0
+mkl_fft                   1.3.1            
 
-mkl_random                1.2.2            py39hf11a4ad_0
+mkl_random                1.2.2            
 
-munkres                   1.1.4                      py_0
+munkres                   1.1.4                      
 
-networkx                  2.6.3              pyhd3eb1b0_0
+networkx                  2.6.3              
 
-numba                     0.54.1                   pypi_0    pypi
+numba                     0.54.1                       pypi
 
-numpy                     1.20.3                   pypi_0    pypi
+numpy                     1.20.3                       pypi
 
-olefile                   0.46               pyhd3eb1b0_0
+olefile                   0.46               
 
-opencv-python             4.5.4.60                 pypi_0    pypi
+opencv-python             4.5.4.60                     pypi
 
-openjpeg                  2.4.0                h4fc8c34_0
+openjpeg                  2.4.0                
 
-openssl                   1.1.1l               h2bbff1b_0
+openssl                   1.1.1l               
 
-packaging                 21.3               pyhd3eb1b0_0
+packaging                 21.3               
 
-partd                     1.2.0              pyhd3eb1b0_0
+partd                     1.2.0              
 
-pillow                    8.4.0            py39hd45dc43_0
+pillow                    8.4.0            
 
-pip                       21.2.4           py39haa95532_0
+pip                       21.2.4           
 
-pydub                     0.25.1                   pypi_0    pypi
+pydub                     0.25.1                       pypi
 
-pyee                      8.2.2                    pypi_0    pypi
+pyee                      8.2.2                        pypi
 
-pyparsing                 3.0.4              pyhd3eb1b0_0
+pyparsing                 3.0.4              
 
-python                    3.9.7                h6244533_1
+python                    3.9.7                
 
-python-dateutil           2.8.2              pyhd3eb1b0_0
+python-dateutil           2.8.2              
 
-pytorch                   1.10.0          py3.9_cuda11.3_cudnn8_0    pytorch
+pytorch                   1.10.0                       pytorch
 
-pytorch-mutex             1.0                        cuda    pytorch
+pytorch-mutex             1.0                          pytorch
 
-pywavelets                1.1.1            py39h080aedc_4
+pywavelets                1.1.1            
 
-pyyaml                    6.0              py39h2bbff1b_1
+pyyaml                    6.0              
 
-scikit-image              0.18.3           py39hf11a4ad_0
+scikit-image              0.18.3           
 
-scikit-video              1.1.11                   pypi_0    pypi
+scikit-video              1.1.11                       pypi
 
-scipy                     1.7.1            py39hbe87c03_2
+scipy                     1.7.1            
 
-setuptools                58.0.4           py39haa95532_0
+setuptools                58.0.4           
 
-six                       1.16.0             pyhd3eb1b0_0
+six                       1.16.0             
 
-snappy                    1.1.8                h33f27b4_0
+snappy                    1.1.8                
 
-sqlite                    3.36.0               h2bbff1b_0
+sqlite                    3.36.0               
 
-tifffile                  2021.7.2           pyhd3eb1b0_2
+tifffile                  2021.7.2           
 
-tk                        8.6.11               h2bbff1b_0
+tk                        8.6.11               
 
-toolz                     0.11.2             pyhd3eb1b0_0
+toolz                     0.11.2             
 
-torchaudio                0.10.0               py39_cu113    pytorch
+torchaudio                0.10.0                      pytorch
 
-torchvision               0.11.1               py39_cu113    pytorch
+torchvision               0.11.1                      pytorch
 
-tqdm                      4.62.3                   pypi_0    pypi
+tqdm                      4.62.3                      pypi
 
-typing_extensions         3.10.0.2           pyh06a4308_0
+typing_extensions         3.10.0.2           
 
-tzdata                    2021e                hda174b7_0
+tzdata                    2021e                
 
-vc                        14.2                 h21ff451_1
+vc                        14.2                 
 
-vs2015_runtime            14.27.29016          h5e58377_2
+vs2015_runtime            14.27.29016          
 
-wheel                     0.37.0             pyhd3eb1b0_1
+wheel                     0.37.0             
 
-wincertstore              0.2              py39haa95532_2
+wincertstore              0.2              
 
-xz                        5.2.5                h62dcd97_0
+xz                        5.2.5                
 
-yaml                      0.2.5                he774522_0
+yaml                      0.2.5                
 
-zfp                       0.5.5                hd77b12b_6
+zfp                       0.5.5                
 
-zlib                      1.2.11               h62dcd97_4
+zlib                      1.2.11               
 
-zstd                      1.4.9                h19a0ad4_0
+zstd                      1.4.9                
 
 
 ## Running the example
