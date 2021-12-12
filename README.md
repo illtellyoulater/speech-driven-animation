@@ -17,8 +17,9 @@ conda activate sda
 conda install python=3.9
 
 ## Install packages (name, version, channel) (TODO: put this in requirements.txt)
-### Install with conda unless channel == "pypi"; in that case install with pip
-### When a channel different that pypi is indicated, install with conda -c channelname
+Install with conda unless channel == "pypi"; in that case install with pip
+When a channel different that pypi is indicated, install with conda -c channelname
+
 
 blas                      1.0                         
 
