@@ -20,7 +20,7 @@ conda install python=3.9
 
 - IGNORE SETUP.PY
 
-- Install with conda unless channel is pypi; in that case install with pip
+- Install package with conda unless channel is pypi; in that case install with pip
 
 - When a channel different that pypi is indicated, install with conda -c channelname
 
