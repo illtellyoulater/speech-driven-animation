@@ -16,7 +16,7 @@ print("What's the name of the audio file? (e.g. 'audio.mp3')")
 audio_file_name = input()
 print("\nWorking...\n")
 
-va = sda.VideoAnimator("grid", gpu=0) # Instantiate the animator(model name("crema" | "grid" | "timit"), gpu=0)
+va = sda.VideoAnimator(gpu=0, model_path="grid") # Instantiate the animator(gpu, model_path)
 fs, audio_clip = wav.read("example/" + audio_file_name)
 frame = Image.open("example/" + image_file_name)
 frame = "example/" + image_file_name
