@@ -8,7 +8,7 @@ This library implements the end-to-end facial synthesis model described in this 
 The models were hosted on git LFS. However the demand was so high that I reached the quota for free gitLFS storage. I have moved the models to GoogleDrive. Models can be found [here](https://drive.google.com/drive/folders/17Dc2keVoNSrlrOdLL3kXdM8wjb20zkbF?usp=sharing).
 Place the model file(s) under sda/data/
 
-## Installing
+## Installing env + python
 
 conda create -n sda
 
@@ -16,9 +16,7 @@ conda activate sda
 
 conda install python=3.9
 
-Then install the following packages
-
-Name, Version, Channel
+## Packages (name, version, channel) (TODO: put this in requirements.txt)
 
 blas                      1.0                         
 
