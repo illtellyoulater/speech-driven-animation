@@ -17,189 +17,190 @@ conda activate sda
 conda install python=3.9
 
 ## Install packages (name, version, channel) (TODO: put this in requirements.txt)
-Install with conda unless channel == "pypi"; in that case install with pip
-When a channel different that pypi is indicated, install with conda -c channelname
+- Install with conda unless channel is pypi; in that case install with pip
 
+- When a channel different that pypi is indicated, install with conda -c channelname
 
-blas                      1.0                         
 
-blosc                     1.21.0               
+blas==1.0
 
-brotli                    1.0.9                
+blosc==1.21.0
 
-bzip2                     1.0.8                
+brotli==1.0.9
 
-ca-certificates           2021.10.26           
+bzip2==1.0.8
 
-certifi                   2021.10.8        
+ca-certificates==2021.10.26
 
-cfitsio                   3.470                
+certifi==2021.10.8
 
-charls                    2.2.0                
+cfitsio==3.470
 
-cloudpickle               2.0.0              
+charls==2.2.0
 
-colorama                  0.4.4                        pypi
+cloudpickle==2.0.0
 
-cudatoolkit               11.3.1               
+colorama==0.4.4 @ pypi
 
-cycler                    0.11.0             
+cudatoolkit==11.3.1
 
-cytoolz                   0.11.0           
+cycler==0.11.0
 
-dask-core                 2021.10.0          
+cytoolz==0.11.0
 
-face-alignment            1.3.5                        pypi
+dask-core==2021.10.0
 
-ffmpeg                    2.7.0                        menpo
+face-alignment==1.3.5 @ pypi
 
-ffmpeg-python             0.2.0                        pypi
+ffmpeg==2.7.0 @ menpo
 
-fonttools                 4.25.0             
+ffmpeg-python==0.2.0 @ pypi
 
-freetype                  2.10.4               
+fonttools==4.25.0
 
-fsspec                    2021.10.1          
+freetype==2.10.4
 
-future                    0.18.2                       pypi
+fsspec==2021.10.1
 
-giflib                    5.2.1                
+future==0.18.2 @ pypi
 
-icc_rt                    2019.0.0             
+giflib==5.2.1
 
-imagecodecs               2021.8.26        
+icc_rt==2019.0.0
 
-imageio                   2.9.0              
+imagecodecs==2021.8.26
 
-intel-openmp              2021.4.0          
+imageio==2.9.0
 
-jpeg                      9d                   
+intel-openmp==2021.4.0
 
-kiwisolver                1.3.1            
+jpeg==9d
 
-lcms2                     2.12                 
+kiwisolver==1.3.1
 
-lerc                      3.0                  
+lcms2==2.12
 
-libaec                    1.0.4                
+lerc==3.0
 
-libdeflate                1.8                  
+libaec==1.0.4
 
-libpng                    1.6.37               
+libdeflate==1.8
 
-libtiff                   4.2.0                
+libpng==1.6.37
 
-libuv                     1.40.0               
+libtiff==4.2.0
 
-libwebp                   1.2.0                
+libuv==1.40.0
 
-libzopfli                 1.0.3                
+libwebp==1.2.0
 
-llvmlite                  0.37.0                       pypi
+libzopfli==1.0.3
 
-locket                    0.2.1            
+llvmlite==0.37.0 @ pypi
 
-lz4-c                     1.9.3                
+locket==0.2.1
 
-matplotlib-base           3.5.0            
+lz4-c==1.9.3
 
-mkl                       2021.4.0           
+matplotlib-base==3.5.0
 
-mkl-service               2.4.0            
+mkl==2021.4.0
 
-mkl_fft                   1.3.1            
+mkl-service==2.4.0
 
-mkl_random                1.2.2            
+mkl_fft==1.3.1
 
-munkres                   1.1.4                      
+mkl_random==1.2.2
 
-networkx                  2.6.3              
+munkres==1.1.4
 
-numba                     0.54.1                       pypi
+networkx==2.6.3
 
-numpy                     1.20.3                       pypi
+numba==0.54.1 @ pypi
 
-olefile                   0.46               
+numpy==1.20.3 @ pypi
 
-opencv-python             4.5.4.60                     pypi
+olefile==0.46
 
-openjpeg                  2.4.0                
+opencv-python==4.5.4.60 @ pypi
 
-openssl                   1.1.1l               
+openjpeg==2.4.0
 
-packaging                 21.3               
+openssl==1.1.1l
 
-partd                     1.2.0              
+packaging==21.3
 
-pillow                    8.4.0            
+partd==1.2.0
 
-pip                       21.2.4           
+pillow==8.4.0
 
-pydub                     0.25.1                       pypi
+pip==21.2.4
 
-pyee                      8.2.2                        pypi
+pydub==0.25.1 @ pypi
 
-pyparsing                 3.0.4              
+pyee==8.2.2 @ pypi
 
-python                    3.9.7                
+pyparsing==3.0.4
 
-python-dateutil           2.8.2              
+python==3.9.7
 
-pytorch                   1.10.0                       pytorch
+python-dateutil==2.8.2
 
-pytorch-mutex             1.0                          pytorch
+pytorch==1.10.0 @ pytorch
 
-pywavelets                1.1.1            
+pytorch-mutex==1.0 @ pytorch
 
-pyyaml                    6.0              
+pywavelets==1.1.1
 
-scikit-image              0.18.3           
+pyyaml==6.0
 
-scikit-video              1.1.11                       pypi
+scikit-image==0.18.3
 
-scipy                     1.7.1            
+scikit-video==1.1.11 @ pypi
 
-setuptools                58.0.4           
+scipy==1.7.1
 
-six                       1.16.0             
+setuptools==58.0.4
 
-snappy                    1.1.8                
+six==1.16.0
 
-sqlite                    3.36.0               
+snappy==1.1.8
 
-tifffile                  2021.7.2           
+sqlite==3.36.0
 
-tk                        8.6.11               
+tifffile==2021.7.2
 
-toolz                     0.11.2             
+tk==8.6.11
 
-torchaudio                0.10.0                      pytorch
+toolz==0.11.2
 
-torchvision               0.11.1                      pytorch
+torchaudio==0.10.0 @ pytorch
 
-tqdm                      4.62.3                      pypi
+torchvision==0.11.1 @ pytorch
 
-typing_extensions         3.10.0.2           
+tqdm==4.62.3 @ pypi
 
-tzdata                    2021e                
+typing_extensions==3.10.0.2
 
-vc                        14.2                 
+tzdata==2021e
 
-vs2015_runtime            14.27.29016          
+vc==14.2
 
-wheel                     0.37.0             
+vs2015_runtime==14.27.29016
 
-wincertstore              0.2              
+wheel==0.37.0
 
-xz                        5.2.5                
+wincertstore==0.2
 
-yaml                      0.2.5                
+xz==5.2.5
 
-zfp                       0.5.5                
+yaml==0.2.5
 
-zlib                      1.2.11               
+zfp==0.5.5
 
-zstd                      1.4.9                
+zlib==1.2.11
+
+zstd==1.4.9
 
 
 ## Running the example
@@ -231,12 +232,13 @@ frame = Image.open("example/image.bmp")
 frame = "example/image.bmp"
 vid, aud = va(frame, audio_clip, fs=fs)
 va.save_video(vid, aud, "generated.mp4")
-
+```
 ## Using the encodings
 The encoders for audio and video are made available so that they can be used to produce features for classification tasks.
 
 ### Audio Encoder
 The Audio Encoder (which is made of Audio-Frame encoder and RNN) is provided along with a dictionary which has information such as the feature length (in seconds) required by the Audio Frame encoder and the overlap between audio frames.
+
 ```
 import sda
 encoder, info = sda.get_audio_feature_extractor(gpu=0)
